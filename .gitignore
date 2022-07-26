@@ -1,0 +1,16 @@
+.vscode
+.idea
+__pycache__
+.data/
+.temp/
+.gitignore/
+.git/
+./daily/spider
+#.log/
+*.log
+*.xlsx
+*.csv
+temp/
+
+
+

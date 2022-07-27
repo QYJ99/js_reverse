@@ -11,6 +11,6 @@ __pycache__
 *.xlsx
 *.csv
 temp/
-
+node_modules
 
 

@@ -1,0 +1,16 @@
+.vscode
+**/__pycache__/
+.vscode/
+.log/
+*log
+.idea
+.idea/
+.temp/
+*.xlsx
+*.log
+*.png
+*.json
+temp/
+.temp/*
+node_modules
+node_modules/

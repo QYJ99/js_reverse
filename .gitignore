@@ -1,6 +1,5 @@
 .vscode
 **/__pycache__/
-.vscode/
 .log/
 *log
 .idea
@@ -12,5 +11,15 @@
 *.json
 temp/
 .temp/*
+__pycache__
+.data/
+.gitignore/
+.git/
+./daily/spider
+*.csv
 node_modules
+./node_modules
 node_modules/
+
+
+

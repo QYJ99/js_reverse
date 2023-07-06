@@ -2,6 +2,7 @@
 # @Time    : 2022/8/8 16:41
 # @Author  : Cat
 # @FileName: login.py
+
 import re
 import requests
 import execjs
@@ -43,7 +44,6 @@ ctx = execjs.compile(js_code,) #cwd="C:/Users/thouger/AppData/Roaming/npm/node_m
 
 pwd = ctx.call("get_pwd",'123456789',dc)
 print(pwd)
-
 
 
 login = requests.get('https://sso.kongzhong.com/ajaxLogin?j=j&&type=1&service=https://passport.kongzhong.com/&username=12343432423&password={}&vcode=r0p6&toSave=0&_=1659941671159'.format(pwd), cookies=cookies, headers=headers)

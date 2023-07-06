@@ -48,7 +48,7 @@ res = requests.get('https://jzsc.mohurd.gov.cn/api/webApi/dataservice/query/comp
 
 with open("./encrpypt.js","r", encoding="utf-8") as f:  # spiders/module/
     js_code = f.read()
-ctx = execjs.compile(js_code,cwd=r"C:\Users\thouger\AppData\Roaming\npm\node_modules")
+ctx = execjs.compile(js_code)
 result = ctx.call("h",res)
 print(result)
 

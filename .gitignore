@@ -12,5 +12,9 @@ __pycache__
 *.csv
 temp/
 node_modules
+./node_modules
+node_modules/
+
+
 
 

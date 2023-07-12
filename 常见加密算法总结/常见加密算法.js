@@ -16,6 +16,18 @@
  console.log('SHA512:', encryptHash(data, 'sha512'));
 
 
+// -----------------------------------     hash加密（crypto-js）     -------------------------------------------------
+
+var hash = CryptoJS.MD5("123456").toString();
+var hash = CryptoJS.SHA1("123456").toString();
+var hash = CryptoJS.SHA256("123456").toString();
+var hash = CryptoJS.SHA512("123456").toString();
+
+var hash = CryptoJS.SHA3("123456", { outputLength: 256 }).toString();
+var hash = CryptoJS.SHA3("123456", { outputLength: 512 }).toString();
+
+
+
  -----------------------------------     AES加密（crypto）     -------------------------------------------------
 
  使用crypto
